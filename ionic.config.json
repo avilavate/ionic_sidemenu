@@ -2,5 +2,13 @@
   "name": "myOldIonic",
   "app_id": "f54a6f08",
   "type": "ionic1",
-  "integrations": {}
+  "integrations": {
+    "gulp": {}
+  },
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
 }
