@@ -42,7 +42,7 @@ angular.module('stockApp.controllers', [])
 })
 
 .controller('StocksCtrl', function($scope) {
-  $scope.playlists = [
+  $scope.stockList = [
     { title: 'Reggae', id: 1 },
     { title: 'Chill', id: 2 },
     { title: 'Dubstep', id: 3 },
